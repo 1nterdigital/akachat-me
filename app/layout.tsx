@@ -11,16 +11,30 @@ export const metadata: Metadata = {
     "A professional chat solution designed to streamline team communication, integrate with your favorite tools, and boost your company's productivity.",
   keywords: 'team chat, collaboration, productivity, messaging',
   authors: [{ name: 'AkaChat Team' }],
+  icons: {
+    icon: '/favicon.ico',
+    shortcut: '/favicon-16x16.png',
+    apple: '/apple-touch-icon.png',
+  },
   openGraph: {
     title: 'AkaChat - Faster, Smarter Team Collaboration',
     description: 'Streamline team communication and boost productivity with AkaChat',
     type: 'website',
     locale: 'en_US',
+    images: [
+      {
+        url: '/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'AkaChat - Team Collaboration Platform',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'AkaChat - Faster, Smarter Team Collaboration',
     description: 'Streamline team communication and boost productivity with AkaChat',
+    images: ['/og-image.png'],
   },
 };
 
