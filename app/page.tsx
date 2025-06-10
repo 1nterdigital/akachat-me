@@ -42,7 +42,7 @@ export default function Home() {
               <div className='flex flex-col sm:flex-row gap-4'>
                 <a
                   title='Download on the App Store'
-                  href='https://apps.apple.com/app/akachat/id1234567890'
+                  href='https://apps.apple.com/app/akachat/id6746837080'
                   className='text-white transition-transform hover:scale-105 flex items-center justify-center'>
                   <Image
                     src='/app-store.png'
@@ -313,7 +313,7 @@ export default function Home() {
           <div className='flex flex-col sm:flex-row gap-4 justify-center mb-4'>
             <a
               title='Download on the App Store'
-              href='https://apps.apple.com/app/akachat/id1234567890'
+              href='https://apps.apple.com/app/akachat/id6746837080'
               className='transition-transform hover:scale-105 flex items-center justify-center'>
               <Image
                 src='/app-store.png'
