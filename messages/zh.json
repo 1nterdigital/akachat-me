@@ -1,0 +1,130 @@
+{
+  "nav": {
+    "home": "首页",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "backToHome": "返回首页"
+  },
+  "hero": {
+    "title": "AkaChat – 更快更智能的团队",
+    "titleHighlight": "通讯",
+    "titleEnd": "无需复杂操作！",
+    "subtitle": "专业的通讯解决方案，旨在简化团队沟通，通过专注的聊天体验提升公司生产力。",
+    "appStoreAlt": "在 App Store 下载",
+    "playStoreAlt": "在 Google Play 获取",
+    "disclaimer": "*您可能需要注册为公司才能使用此应用"
+  },
+  "benefits": {
+    "title": "为什么团队选择 AkaChat",
+    "subtitle": "无缝消息传递所需的一切",
+    "realTimeMessaging": {
+      "title": "实时消息",
+      "description": "在一个简洁专注的平台中进行即时消息传递和文件共享。"
+    },
+    "simpleFocused": {
+      "title": "简单专注",
+      "description": "简洁的消息体验，无需复杂的不必要功能。"
+    },
+    "organizedChannels": {
+      "title": "有序的团队频道",
+      "description": "创建专用团队频道，保持对话有序且专注。"
+    },
+    "enterpriseSecurity": {
+      "title": "企业级安全",
+      "description": "端到端加密和高级管理控制，确保数据安全。"
+    },
+    "allTeams": {
+      "title": "适用于所有团队",
+      "description": "从人力资源到工程部门，AkaChat 帮助每个部门更好地沟通。"
+    },
+    "support": {
+      "title": "24/7 支持",
+      "description": "随时获得专业支持团队的帮助。"
+    }
+  },
+  "useCases": {
+    "title": "适合每个团队",
+    "remoteTeams": {
+      "title": "远程团队",
+      "description": "无论团队成员身在何处，都能通过即时消息保持联系。"
+    },
+    "teamLeaders": {
+      "title": "团队领导",
+      "description": "通过有序的频道和清晰的沟通流程让团队保持信息畅通。"
+    },
+    "salesMarketing": {
+      "title": "销售与营销",
+      "description": "快速分享更新，讨论策略，通过专注的消息传递让每个人保持一致。"
+    }
+  },
+  "showcase": {
+    "title": "看到您团队的沟通",
+    "titleHighlight": "改进",
+    "subtitle": "看着您的团队从分散的消息传递转变为有组织的沟通。AkaChat 将每个人聚集在一个专注的平台上。",
+    "fasterResponses": "更快的团队响应",
+    "satisfaction": "90% 团队满意度",
+    "online": "在线",
+    "newMessage": "新消息"
+  },
+  "cta": {
+    "title": "准备简化您团队的消息传递了吗？",
+    "subtitle": "立即下载 AkaChat，体验专注消息传递的不同！",
+    "disclaimer": "*您可能需要注册为公司才能使用此应用"
+  },
+  "footer": {
+    "title": "AkaChat – 更快更智能的团队消息传递，无需复杂操作！",
+    "description": "专业的聊天解决方案，旨在简化团队沟通，提升公司生产力。",
+    "copyright": "© 2025 AkaChat. 保留所有权利。"
+  },
+  "privacy": {
+    "title": "隐私政策",
+    "introduction": "开发者充分理解您个人信息的重要性，将尽一切努力确保其安全性和可靠性。根据法律法规和国家标准，制定以下\"AkaChat\"隐私政策：",
+    "informationCollection": {
+      "title": "信息收集",
+      "description": "\"AkaChat\"应用不会收集用户手机的任何隐私信息，如电话号码、联系人、短信、位置等。开发者的初衷是开发一个有用的团队消息工具，应用内不会有第三方广告（偶尔可能会推广开发者自己的产品），因此您无需担心第三方广告服务提供商窃取您手机的隐私。"
+    },
+    "appFunctionality": {
+      "title": "应用功能",
+      "description": "\"AkaChat\"应用内的所有功能都旨在提供具有企业级安全功能的安全团队消息传递能力。"
+    },
+    "yourConsent": {
+      "title": "您的同意",
+      "description": "在使用我们的产品或服务之前，请阅读并充分理解本隐私政策的内容。使用我们的产品或服务，即表示您已充分理解并同意本政策。"
+    },
+    "feedback": {
+      "title": "反馈",
+      "description": "如果应用对您有帮助，请为\"AkaChat\"应用给出好评。这将鼓励开发者提供更高质量的应用内容。"
+    },
+    "closing": "最后，祝您使用愉快。",
+    "lastUpdated": "2025年1月8日"
+  },
+  "terms": {
+    "title": "条款和条件",
+    "lastUpdated": "最后更新：2025年1月8日",
+    "acceptanceOfTerms": {
+      "title": "1. 接受条款",
+      "description": "通过访问和使用AkaChat（\"服务\"），您接受并同意受本协议条款和条件的约束。如果您不同意遵守上述条款，请不要使用此服务。"
+    },
+    "descriptionOfService": {
+      "title": "2. 服务描述",
+      "description": "AkaChat是一个团队消息平台，提供消息传递、文件共享和频道组织工具。服务按\"原样\"提供，我们保留随时修改或停止服务的权利。"
+    },
+    "userAccounts": {
+      "title": "3. 用户账户",
+      "description": "要使用我们的服务，您必须：",
+      "requirements": [
+        "年满13岁",
+        "提供准确完整的注册信息",
+        "维护账户凭据的安全",
+        "对账户下的所有活动承担责任",
+        "立即通知我们任何未经授权的使用"
+      ]
+    },
+    "contactInformation": {
+      "title": "4. 联系信息",
+      "description": "如果您对这些条款和条件有任何疑问，请联系我们：",
+      "email": "邮箱：legal@akachat.me",
+      "address": "地址：Landmark Pluit, Blok E7, Pluit, Penjaringan, North Jakarta City, Jakarta"
+    }
+  }
+}

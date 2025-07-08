@@ -1,0 +1,130 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Syarat Layanan",
+    "backToHome": "Kembali ke Beranda"
+  },
+  "hero": {
+    "title": "AkaChat – Tim yang Lebih Cepat dan Cerdas",
+    "titleHighlight": "Pesan",
+    "titleEnd": "Tanpa Kerumitan!",
+    "subtitle": "Solusi pesan profesional yang dirancang untuk merampingkan komunikasi tim dan meningkatkan produktivitas perusahaan melalui pengalaman chat yang terfokus.",
+    "appStoreAlt": "Unduh di App Store",
+    "playStoreAlt": "Dapatkan di Google Play",
+    "disclaimer": "*Anda mungkin perlu mendaftar sebagai perusahaan untuk menggunakan aplikasi ini"
+  },
+  "benefits": {
+    "title": "Mengapa Tim Memilih AkaChat",
+    "subtitle": "Semua yang Anda butuhkan untuk pesan yang lancar",
+    "realTimeMessaging": {
+      "title": "Pesan Real-Time",
+      "description": "Pesan instan dan berbagi file dalam satu platform yang bersih dan terfokus."
+    },
+    "simpleFocused": {
+      "title": "Sederhana & Terfokus",
+      "description": "Pengalaman pesan yang bersih tanpa kompleksitas fitur yang tidak perlu."
+    },
+    "organizedChannels": {
+      "title": "Saluran Tim Terorganisir",
+      "description": "Buat saluran tim khusus untuk menjaga percakapan tetap terorganisir dan terfokus."
+    },
+    "enterpriseSecurity": {
+      "title": "Keamanan Tingkat Enterprise",
+      "description": "Enkripsi end-to-end dan kontrol admin lanjutan untuk menjaga data Anda tetap aman."
+    },
+    "allTeams": {
+      "title": "Dibuat untuk Semua Tim",
+      "description": "Dari HR hingga Engineering, AkaChat membantu setiap departemen berkomunikasi lebih baik."
+    },
+    "support": {
+      "title": "Dukungan 24/7",
+      "description": "Dapatkan bantuan kapan pun Anda membutuhkannya dari tim dukungan khusus kami."
+    }
+  },
+  "useCases": {
+    "title": "Sempurna untuk Setiap Tim",
+    "remoteTeams": {
+      "title": "Untuk Tim Remote",
+      "description": "Tetap terhubung dengan pesan instan di mana pun anggota tim Anda berada."
+    },
+    "teamLeaders": {
+      "title": "Untuk Pemimpin Tim",
+      "description": "Jaga tim Anda tetap terinformasi dengan saluran terorganisir dan alur komunikasi yang jelas."
+    },
+    "salesMarketing": {
+      "title": "Untuk Sales & Marketing",
+      "description": "Bagikan pembaruan dengan cepat, diskusikan strategi, dan jaga semua orang tetap selaras melalui pesan yang terfokus."
+    }
+  },
+  "showcase": {
+    "title": "Lihat Komunikasi Tim Anda",
+    "titleHighlight": "Meningkat",
+    "subtitle": "Saksikan tim Anda bertransformasi dari pesan yang tersebar menjadi komunikasi yang terorganisir. AkaChat menyatukan semua orang dalam satu platform yang terfokus.",
+    "fasterResponses": "Respons tim lebih cepat",
+    "satisfaction": "Tingkat kepuasan tim 90%",
+    "online": "online",
+    "newMessage": "Pesan baru"
+  },
+  "cta": {
+    "title": "Siap menyederhanakan pesan tim Anda?",
+    "subtitle": "Unduh AkaChat hari ini dan rasakan perbedaan pesan yang terfokus!",
+    "disclaimer": "*Anda mungkin perlu mendaftar sebagai perusahaan untuk menggunakan aplikasi ini"
+  },
+  "footer": {
+    "title": "AkaChat – Pesan Tim yang Lebih Cepat dan Cerdas Tanpa Kerumitan!",
+    "description": "Solusi chat profesional yang dirancang untuk merampingkan komunikasi tim dan meningkatkan produktivitas perusahaan.",
+    "copyright": "© 2025 AkaChat. Semua hak dilindungi."
+  },
+  "privacy": {
+    "title": "Kebijakan Privasi",
+    "introduction": "Pengembang sepenuhnya memahami pentingnya informasi pribadi Anda dan akan melakukan segala upaya untuk memastikan keamanan dan keandalannya. Sesuai dengan hukum, peraturan, dan standar nasional, Kebijakan Privasi berikut untuk \"AkaChat\" ditetapkan:",
+    "informationCollection": {
+      "title": "Pengumpulan Informasi",
+      "description": "Aplikasi \"AkaChat\" tidak mengumpulkan informasi pribadi apa pun dari ponsel pengguna, seperti nomor telepon, kontak, SMS, lokasi, dll. Niat asli pengembang adalah mengembangkan alat pesan tim yang berguna, dan tidak akan ada iklan pihak ketiga dalam aplikasi (sesekali, produk pengembang sendiri mungkin dipromosikan), jadi Anda tidak perlu khawatir tentang penyedia layanan iklan pihak ketiga yang mencuri privasi ponsel Anda."
+    },
+    "appFunctionality": {
+      "title": "Fungsi Aplikasi",
+      "description": "Semua fungsi dalam aplikasi \"AkaChat\" dirancang untuk menyediakan kemampuan pesan tim yang aman dengan fitur keamanan tingkat enterprise."
+    },
+    "yourConsent": {
+      "title": "Persetujuan Anda",
+      "description": "Harap baca dan pahami sepenuhnya isi Kebijakan Privasi ini sebelum menggunakan produk atau layanan kami. Dengan menggunakan produk atau layanan kami, Anda menunjukkan bahwa Anda telah sepenuhnya memahami dan menyetujui kebijakan ini."
+    },
+    "feedback": {
+      "title": "Umpan Balik",
+      "description": "Jika aplikasi ini telah membantu Anda, harap berikan ulasan yang baik untuk aplikasi \"AkaChat\". Ini akan mendorong pengembang untuk menyediakan konten aplikasi berkualitas lebih tinggi."
+    },
+    "closing": "Akhirnya, semoga Anda mendapatkan pengalaman yang menyenangkan dalam menggunakannya.",
+    "lastUpdated": "Pada 8 Januari 2025"
+  },
+  "terms": {
+    "title": "Syarat dan Ketentuan",
+    "lastUpdated": "Terakhir diperbarui: 8 Januari 2025",
+    "acceptanceOfTerms": {
+      "title": "1. Penerimaan Syarat",
+      "description": "Dengan mengakses dan menggunakan AkaChat (\"Layanan\"), Anda menerima dan setuju untuk terikat oleh syarat dan ketentuan dari perjanjian ini. Jika Anda tidak setuju untuk mematuhi hal di atas, harap jangan gunakan layanan ini."
+    },
+    "descriptionOfService": {
+      "title": "2. Deskripsi Layanan",
+      "description": "AkaChat adalah platform pesan tim yang menyediakan pesan, berbagi file, dan alat organisasi saluran. Layanan disediakan \"sebagaimana adanya\" dan kami berhak untuk memodifikasi atau menghentikan layanan kapan saja."
+    },
+    "userAccounts": {
+      "title": "3. Akun Pengguna",
+      "description": "Untuk menggunakan layanan kami, Anda harus:",
+      "requirements": [
+        "Berusia minimal 13 tahun",
+        "Memberikan informasi registrasi yang akurat dan lengkap",
+        "Menjaga keamanan kredensial akun Anda",
+        "Menerima tanggung jawab atas semua aktivitas di bawah akun Anda",
+        "Memberi tahu kami segera tentang penggunaan yang tidak sah"
+      ]
+    },
+    "contactInformation": {
+      "title": "4. Informasi Kontak",
+      "description": "Jika Anda memiliki pertanyaan tentang Syarat dan Ketentuan ini, silakan hubungi kami:",
+      "email": "Email: legal@akachat.me",
+      "address": "Alamat: Landmark Pluit, Blok E7, Pluit, Penjaringan, North Jakarta City, Jakarta"
+    }
+  }
+}

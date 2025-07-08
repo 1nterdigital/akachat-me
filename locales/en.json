@@ -1,0 +1,79 @@
+{
+  "nav": {
+    "home": "Home",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "backToHome": "Back to Home"
+  },
+  "hero": {
+    "title": "AkaChat – Faster, Smarter Team",
+    "titleHighlight": "Messaging",
+    "titleEnd": "Without the Hassle!",
+    "subtitle": "A professional messaging solution designed to streamline team communication and boost your company's productivity through focused chat experiences.",
+    "appStoreAlt": "Download on the App Store",
+    "playStoreAlt": "Get it on Google Play",
+    "disclaimer": "*You may need to register as company to use this app"
+  },
+  "benefits": {
+    "title": "Why Teams Choose AkaChat",
+    "subtitle": "Everything you need for seamless messaging",
+    "realTimeMessaging": {
+      "title": "Real-Time Messaging",
+      "description": "Instant messaging and file sharing in one clean, focused platform."
+    },
+    "simpleFocused": {
+      "title": "Simple & Focused",
+      "description": "A clean messaging experience without the complexity of unnecessary features."
+    },
+    "organizedChannels": {
+      "title": "Organized Team Channels",
+      "description": "Create dedicated team channels to keep conversations organized and focused."
+    },
+    "enterpriseSecurity": {
+      "title": "Enterprise-Grade Security",
+      "description": "End-to-end encryption and advanced admin controls to keep your data safe."
+    },
+    "allTeams": {
+      "title": "Built for All Teams",
+      "description": "From HR to Engineering, AkaChat helps every department communicate better."
+    },
+    "support": {
+      "title": "24/7 Support",
+      "description": "Get help whenever you need it with our dedicated support team."
+    }
+  },
+  "useCases": {
+    "title": "Perfect for Every Team",
+    "remoteTeams": {
+      "title": "For Remote Teams",
+      "description": "Stay connected with instant messaging no matter where your team is located."
+    },
+    "teamLeaders": {
+      "title": "For Team Leaders",
+      "description": "Keep your team informed with organized channels and clear communication flows."
+    },
+    "salesMarketing": {
+      "title": "For Sales & Marketing",
+      "description": "Share updates quickly, discuss strategies, and keep everyone aligned through focused messaging."
+    }
+  },
+  "showcase": {
+    "title": "See Your Team's Communication",
+    "titleHighlight": "Improve",
+    "subtitle": "Watch as your team transforms from scattered messaging to organized communication. AkaChat brings everyone together in one focused platform.",
+    "fasterResponses": "Faster team responses",
+    "satisfaction": "90% team satisfaction rate",
+    "online": "online",
+    "newMessage": "New message"
+  },
+  "cta": {
+    "title": "Ready to simplify your team's messaging?",
+    "subtitle": "Download AkaChat today and see the difference focused messaging makes!",
+    "disclaimer": "*You may need to register as company to use this app"
+  },
+  "footer": {
+    "title": "AkaChat – Faster, Smarter Team Messaging Without the Hassle!",
+    "description": "A professional chat solution designed to streamline team communication and boost your company's productivity.",
+    "copyright": "© 2025 AkaChat. All rights reserved."
+  }
+}

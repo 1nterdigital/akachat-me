@@ -1,0 +1,130 @@
+{
+  "nav": {
+    "home": "Home",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "backToHome": "Back to Home"
+  },
+  "hero": {
+    "title": "AkaChat – Faster, Smarter Team",
+    "titleHighlight": "Messaging",
+    "titleEnd": "Without the Hassle!",
+    "subtitle": "A professional messaging solution designed to streamline team communication and boost your company's productivity through focused chat experiences.",
+    "appStoreAlt": "Download on the App Store",
+    "playStoreAlt": "Get it on Google Play",
+    "disclaimer": "*You may need to register as company to use this app"
+  },
+  "benefits": {
+    "title": "Why Teams Choose AkaChat",
+    "subtitle": "Everything you need for seamless messaging",
+    "realTimeMessaging": {
+      "title": "Real-Time Messaging",
+      "description": "Instant messaging and file sharing in one clean, focused platform."
+    },
+    "simpleFocused": {
+      "title": "Simple & Focused",
+      "description": "A clean messaging experience without the complexity of unnecessary features."
+    },
+    "organizedChannels": {
+      "title": "Organized Team Channels",
+      "description": "Create dedicated team channels to keep conversations organized and focused."
+    },
+    "enterpriseSecurity": {
+      "title": "Enterprise-Grade Security",
+      "description": "End-to-end encryption and advanced admin controls to keep your data safe."
+    },
+    "allTeams": {
+      "title": "Built for All Teams",
+      "description": "From HR to Engineering, AkaChat helps every department communicate better."
+    },
+    "support": {
+      "title": "24/7 Support",
+      "description": "Get help whenever you need it with our dedicated support team."
+    }
+  },
+  "useCases": {
+    "title": "Perfect for Every Team",
+    "remoteTeams": {
+      "title": "For Remote Teams",
+      "description": "Stay connected with instant messaging no matter where your team is located."
+    },
+    "teamLeaders": {
+      "title": "For Team Leaders",
+      "description": "Keep your team informed with organized channels and clear communication flows."
+    },
+    "salesMarketing": {
+      "title": "For Sales & Marketing",
+      "description": "Share updates quickly, discuss strategies, and keep everyone aligned through focused messaging."
+    }
+  },
+  "showcase": {
+    "title": "See Your Team's Communication",
+    "titleHighlight": "Improve",
+    "subtitle": "Watch as your team transforms from scattered messaging to organized communication. AkaChat brings everyone together in one focused platform.",
+    "fasterResponses": "Faster team responses",
+    "satisfaction": "90% team satisfaction rate",
+    "online": "online",
+    "newMessage": "New message"
+  },
+  "cta": {
+    "title": "Ready to simplify your team's messaging?",
+    "subtitle": "Download AkaChat today and see the difference focused messaging makes!",
+    "disclaimer": "*You may need to register as company to use this app"
+  },
+  "footer": {
+    "title": "AkaChat – Faster, Smarter Team Messaging Without the Hassle!",
+    "description": "A professional chat solution designed to streamline team communication and boost your company's productivity.",
+    "copyright": "© 2025 AkaChat. All rights reserved."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "introduction": "The developer fully understands the importance of your personal information and will make every effort to ensure its security and reliability. In accordance with laws, regulations, and national standards, the following Privacy Policy for \"AkaChat\" is established:",
+    "informationCollection": {
+      "title": "Information Collection",
+      "description": "The \"AkaChat\" app does not collect any private information from users' phones, such as phone numbers, contacts, SMS, location, etc. The developer's original intention is to develop a useful team messaging tool, and there will be no third-party advertisements within the app (occasionally, the developer's own products may be promoted), so you don't have to worry about third-party advertising service providers stealing your phone's privacy."
+    },
+    "appFunctionality": {
+      "title": "App Functionality",
+      "description": "All functions within the \"AkaChat\" app are designed to provide secure team messaging capabilities with enterprise-grade security features."
+    },
+    "yourConsent": {
+      "title": "Your Consent",
+      "description": "Please read and fully understand the content of this Privacy Policy before using our products or services. By using our products or services, you indicate that you have fully understood and agree to this policy."
+    },
+    "feedback": {
+      "title": "Feedback",
+      "description": "If the app has been helpful to you, please give the \"AkaChat\" app a good review. This will encourage the developer to provide higher-quality app content."
+    },
+    "closing": "Finally, wish you a pleasant experience using it.",
+    "lastUpdated": "On January 8, 2025"
+  },
+  "terms": {
+    "title": "Terms and Conditions",
+    "lastUpdated": "Last updated: January 8, 2025",
+    "acceptanceOfTerms": {
+      "title": "1. Acceptance of Terms",
+      "description": "By accessing and using AkaChat (\"the Service\"), you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service."
+    },
+    "descriptionOfService": {
+      "title": "2. Description of Service",
+      "description": "AkaChat is a team messaging platform that provides messaging, file sharing, and channel organization tools. The service is provided \"as is\" and we reserve the right to modify or discontinue the service at any time."
+    },
+    "userAccounts": {
+      "title": "3. User Accounts",
+      "description": "To use our service, you must:",
+      "requirements": [
+        "Be at least 13 years old",
+        "Provide accurate and complete registration information",
+        "Maintain the security of your account credentials",
+        "Accept responsibility for all activities under your account",
+        "Notify us immediately of any unauthorized use"
+      ]
+    },
+    "contactInformation": {
+      "title": "4. Contact Information",
+      "description": "If you have any questions about these Terms and Conditions, please contact us:",
+      "email": "Email: legal@akachat.me",
+      "address": "Address: Landmark Pluit, Blok E7, Pluit, Penjaringan, North Jakarta City, Jakarta"
+    }
+  }
+}
