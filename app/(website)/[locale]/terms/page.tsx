@@ -79,3 +79,4 @@ export default async function TermsPage({ params }: TermsPageProps) {
     </div>
   );
 }
+

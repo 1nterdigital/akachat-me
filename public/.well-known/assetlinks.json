@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.akachat",
+      "sha256_cert_fingerprints": [
+        "49:9A:81:4A:F2:87:CC:13:A5:3A:B2:94:74:10:7D:82:F1:7D:CB:3C:32:6A:15:26:7C:D4:1B:CA:C6:FE:10:CA"
+      ]
+    }
+  }
+]

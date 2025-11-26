@@ -77,3 +77,4 @@ export default async function PrivacyPage({ params }: PrivacyPageProps) {
     </div>
   );
 }
+
