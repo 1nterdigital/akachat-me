@@ -32,19 +32,18 @@ jobs:
       - name: Build
         run: pnpm build
 
-      - name: Deploy to server via SSH
-        uses: easingthemes/ssh-deploy@main
+      - name: Deploy to server via SCP
+        uses: appleboy/scp-action@v0.1.7
         with:
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-          REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
-          REMOTE_USER: ${{ secrets.REMOTE_USER }}
-          REMOTE_PORT: ${{ secrets.REMOTE_PORT || '22' }}
-          SOURCE: 'out/'
-          TARGET: ${{ secrets.DEPLOY_PATH }}
-          ARGS: '-avzr --delete'
-          EXCLUDE: '.git, .github'
+          host: ${{ secrets.REMOTE_HOST }}
+          username: ${{ secrets.REMOTE_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: ${{ secrets.REMOTE_PORT || '22' }}
+          source: 'out/*'
+          target: ${{ secrets.DEPLOY_PATH }}
+          strip_components: 1
+          rm: true
 
-      # Optional: Reload Caddy if needed
       - name: Reload Caddy
         uses: appleboy/ssh-action@v1.0.3
         with:
