@@ -39,6 +39,10 @@ jobs:
           username: ${{ secrets.REMOTE_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: ${{ secrets.REMOTE_PORT || '22' }}
+          script: |
+            sudo mkdir -p ${{ secrets.DEPLOY_PATH }}
+            sudo rm -rf ${{ secrets.DEPLOY_PATH }}/*
+            sudo chown -R $USER:$USER ${{ secrets.DEPLOY_PATH }}
 
       - name: Deploy to server via SCP
         uses: appleboy/scp-action@v0.1.7
