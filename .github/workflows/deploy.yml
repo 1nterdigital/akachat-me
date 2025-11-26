@@ -32,6 +32,17 @@ jobs:
       - name: Build
         run: pnpm build
 
+      - name: Prepare deploy folder
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.REMOTE_HOST }}
+          username: ${{ secrets.REMOTE_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: ${{ secrets.REMOTE_PORT || '22' }}
+          script: |
+            mkdir -p ${{ secrets.DEPLOY_PATH }}
+            rm -rf ${{ secrets.DEPLOY_PATH }}/*
+
       - name: Deploy to server via SCP
         uses: appleboy/scp-action@v0.1.7
         with:
@@ -42,7 +53,8 @@ jobs:
           source: 'out/*'
           target: ${{ secrets.DEPLOY_PATH }}
           strip_components: 1
-          rm: true
+          rm: false
+          overwrite: true
 
       - name: Reload Caddy
         uses: appleboy/ssh-action@v1.0.3
