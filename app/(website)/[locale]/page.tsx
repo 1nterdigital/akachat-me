@@ -47,7 +47,7 @@ export default async function HomePage({ params }: HomePageProps) {
                 {messages.hero.titleEnd}
               </h1>
               <p className='text-xl text-gray-600 mb-8'>{messages.hero.subtitle}</p>
-              <div className='flex flex-col sm:flex-row gap-4'>
+              <div className='flex flex-col sm:flex-row gap-4 justify-center items-center'>
                 <a
                   title={messages.hero.appStoreAlt}
                   href='https://apps.apple.com/app/akachat/id6746837080'
@@ -76,15 +76,37 @@ export default async function HomePage({ params }: HomePageProps) {
                   title={messages.hero.downloadWebAlt}
                   href='https://github.com/tedy69/landing-page-akachat/releases/latest/download/akachat.apk'
                   download
-                  className='bg-gray-50 hover:bg-gray-100 text-blue-600 px-6 py-3 rounded-lg transition-all hover:scale-105 flex items-center gap-2 font-medium shadow-md'>
-                  <Image
-                    src='/android-chrome-192x192.png'
-                    alt='Android'
-                    width={24}
-                    height={24}
-                    className='w-6 h-6'
-                  />
-                  <span>{messages.hero.downloadWebText}</span>
+                  className='bg-slate-950  text-white rounded-lg transition-transform hover:scale-105 flex items-center justify-center gap-2 font-medium shadow-md h-11'
+                  style={{ width: 150, minWidth: 150 }}>
+                  <svg
+                    xmlns='http://www.w3.org/2000/svg'
+                    xmlnsXlink='http://www.w3.org/1999/xlink'
+                    height='24'
+                    width='24'
+                    version='1.1'
+                    id='Layer_1'
+                    viewBox='0 0 512.002 512.002'
+                    xmlSpace='preserve'>
+                    <g>
+                      <path
+                        fill='#A6D864'
+                        d='M309.446,512c17.119,0,32.048-14.929,32.048-32.048v-74.846h21.399   c12.841,0,21.399-8.561,21.399-21.399v-213.77H127.708v213.772c0,12.839,8.56,21.399,21.399,21.399h21.401v74.846   c0,17.119,14.925,32.048,32.048,32.048c17.117,0,32.045-14.929,32.045-32.048v-74.846H277.4v74.846   C277.398,497.071,292.327,512,309.446,512z'
+                      />
+                      <path
+                        fill='#A6D864'
+                        d='M437.74,383.709c17.119,0,32.045-14.927,32.045-32.048v-149.69   c0-17.029-14.925-32.034-32.045-32.034c-17.121,0-32.048,15.006-32.048,32.034v149.69   C405.692,368.78,420.618,383.709,437.74,383.709z'
+                      />
+                      <path
+                        fill='#A6D864'
+                        d='M74.261,383.709c17.121,0,32.048-14.927,32.048-32.048v-149.69   c0-17.029-14.925-32.034-32.048-32.034c-17.119,0-32.045,15.006-32.045,32.034v149.69C42.217,368.78,57.142,383.709,74.261,383.709   z'
+                      />
+                      <path
+                        fill='#A6D864'
+                        d='M358.611,3.229c-4.278-4.305-10.647-4.305-14.925,0l-28.701,28.605l-1.324,1.322   c-17.018-8.522-36.099-12.778-57.347-12.819c-0.104,0-0.207-0.003-0.311-0.003h-0.003c-0.108,0-0.207,0.003-0.314,0.003   c-21.247,0.041-40.327,4.297-57.344,12.819l-1.327-1.322L168.314,3.229c-4.281-4.305-10.647-4.305-14.925,0   c-4.281,4.281-4.281,10.635,0,14.913l27.763,27.768c-8.946,5.973-17.058,13.282-24.112,21.642   c-16.888,20.018-27.661,46.071-29.142,74.299c-0.014,0.294-0.043,0.584-0.056,0.878c-0.091,1.922-0.133,3.854-0.133,5.794h256.583   c0-1.939-0.046-3.871-0.133-5.794c-0.014-0.294-0.043-0.584-0.06-0.878c-1.478-28.228-12.253-54.282-29.142-74.297   c-7.051-8.36-15.166-15.669-24.112-21.642l27.766-27.768C362.893,13.864,362.893,7.511,358.611,3.229z M202.515,111.16   c-8.853,0-16.031-7.177-16.031-16.031s7.177-16.031,16.031-16.031c8.853,0,16.031,7.177,16.031,16.031   S211.368,111.16,202.515,111.16z M309.485,111.16c-8.853,0-16.031-7.177-16.031-16.031s7.177-16.031,16.031-16.031   c8.853,0,16.031,7.177,16.031,16.031S318.339,111.16,309.485,111.16z'
+                      />
+                    </g>
+                  </svg>
+                  <span className='whitespace-nowrap text-sm'>{messages.hero.downloadWebText}</span>
                 </a>
               </div>
               <p className='text-sm text-gray-500 mt-4'>{messages.hero.disclaimer}</p>
@@ -244,15 +266,36 @@ export default async function HomePage({ params }: HomePageProps) {
               title={messages.hero.downloadWebAlt}
               href='https://github.com/tedy69/landing-page-akachat/releases/latest/download/akachat.apk'
               download
-              className='bg-gray-50 hover:bg-gray-100 text-blue-600 px-6 py-3 rounded-lg transition-all hover:scale-105 flex items-center gap-2 font-medium shadow-md'>
-              <Image
-                src='/android-chrome-192x192.png'
-                alt='Android'
-                width={24}
-                height={24}
-                className='w-6 h-6'
-              />
-              <span>{messages.hero.downloadWebText}</span>
+              className='bg-slate-950 text-white px-4 sm:px-6 py-2.5 sm:py-3 rounded-lg transition-transform hover:scale-105 flex items-center justify-center gap-2 font-medium shadow-md h-12 text-sm sm:text-base'>
+              <svg
+                xmlns='http://www.w3.org/2000/svg'
+                xmlnsXlink='http://www.w3.org/1999/xlink'
+                height='24'
+                width='24'
+                version='1.1'
+                id='Layer_1'
+                viewBox='0 0 512.002 512.002'
+                xmlSpace='preserve'>
+                <g>
+                  <path
+                    fill='#A6D864'
+                    d='M309.446,512c17.119,0,32.048-14.929,32.048-32.048v-74.846h21.399   c12.841,0,21.399-8.561,21.399-21.399v-213.77H127.708v213.772c0,12.839,8.56,21.399,21.399,21.399h21.401v74.846   c0,17.119,14.925,32.048,32.048,32.048c17.117,0,32.045-14.929,32.045-32.048v-74.846H277.4v74.846   C277.398,497.071,292.327,512,309.446,512z'
+                  />
+                  <path
+                    fill='#A6D864'
+                    d='M437.74,383.709c17.119,0,32.045-14.927,32.045-32.048v-149.69   c0-17.029-14.925-32.034-32.045-32.034c-17.121,0-32.048,15.006-32.048,32.034v149.69   C405.692,368.78,420.618,383.709,437.74,383.709z'
+                  />
+                  <path
+                    fill='#A6D864'
+                    d='M74.261,383.709c17.121,0,32.048-14.927,32.048-32.048v-149.69   c0-17.029-14.925-32.034-32.048-32.034c-17.119,0-32.045,15.006-32.045,32.034v149.69C42.217,368.78,57.142,383.709,74.261,383.709   z'
+                  />
+                  <path
+                    fill='#A6D864'
+                    d='M358.611,3.229c-4.278-4.305-10.647-4.305-14.925,0l-28.701,28.605l-1.324,1.322   c-17.018-8.522-36.099-12.778-57.347-12.819c-0.104,0-0.207-0.003-0.311-0.003h-0.003c-0.108,0-0.207,0.003-0.314,0.003   c-21.247,0.041-40.327,4.297-57.344,12.819l-1.327-1.322L168.314,3.229c-4.281-4.305-10.647-4.305-14.925,0   c-4.281,4.281-4.281,10.635,0,14.913l27.763,27.768c-8.946,5.973-17.058,13.282-24.112,21.642   c-16.888,20.018-27.661,46.071-29.142,74.299c-0.014,0.294-0.043,0.584-0.056,0.878c-0.091,1.922-0.133,3.854-0.133,5.794h256.583   c0-1.939-0.046-3.871-0.133-5.794c-0.014-0.294-0.043-0.584-0.06-0.878c-1.478-28.228-12.253-54.282-29.142-74.297   c-7.051-8.36-15.166-15.669-24.112-21.642l27.766-27.768C362.893,13.864,362.893,7.511,358.611,3.229z M202.515,111.16   c-8.853,0-16.031-7.177-16.031-16.031s7.177-16.031,16.031-16.031c8.853,0,16.031,7.177,16.031,16.031   S211.368,111.16,202.515,111.16z M309.485,111.16c-8.853,0-16.031-7.177-16.031-16.031s7.177-16.031,16.031-16.031   c8.853,0,16.031,7.177,16.031,16.031S318.339,111.16,309.485,111.16z'
+                  />
+                </g>
+              </svg>
+              <span className='whitespace-nowrap'>{messages.hero.downloadWebText}</span>
             </a>
           </div>
           <div className="justify-center text-blue-100 text-sm font-normal font-['Inter'] leading-tight">
