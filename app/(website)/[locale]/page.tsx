@@ -72,6 +72,20 @@ export default async function HomePage({ params }: HomePageProps) {
                     className='h-11'
                   />
                 </a>
+                <a
+                  title={messages.hero.downloadWebAlt}
+                  href='https://github.com/tedy69/landing-page-akachat/releases/latest/download/akachat.apk'
+                  download
+                  className='bg-gray-50 hover:bg-gray-100 text-blue-600 px-6 py-3 rounded-lg transition-all hover:scale-105 flex items-center gap-2 font-medium shadow-md'>
+                  <Image
+                    src='/android-chrome-192x192.png'
+                    alt='Android'
+                    width={24}
+                    height={24}
+                    className='w-6 h-6'
+                  />
+                  <span>{messages.hero.downloadWebText}</span>
+                </a>
               </div>
               <p className='text-sm text-gray-500 mt-4'>{messages.hero.disclaimer}</p>
             </div>
@@ -225,6 +239,20 @@ export default async function HomePage({ params }: HomePageProps) {
                 height={44}
                 className='h-12'
               />
+            </a>
+            <a
+              title={messages.hero.downloadWebAlt}
+              href='https://github.com/tedy69/landing-page-akachat/releases/latest/download/akachat.apk'
+              download
+              className='bg-gray-50 hover:bg-gray-100 text-blue-600 px-6 py-3 rounded-lg transition-all hover:scale-105 flex items-center gap-2 font-medium shadow-md'>
+              <Image
+                src='/android-chrome-192x192.png'
+                alt='Android'
+                width={24}
+                height={24}
+                className='w-6 h-6'
+              />
+              <span>{messages.hero.downloadWebText}</span>
             </a>
           </div>
           <div className="justify-center text-blue-100 text-sm font-normal font-['Inter'] leading-tight">
