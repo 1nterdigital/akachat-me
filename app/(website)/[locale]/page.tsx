@@ -74,7 +74,7 @@ export default async function HomePage({ params }: HomePageProps) {
                 </a>
                 <a
                   title={messages.hero.downloadWebAlt}
-                  href='https://github.com/tedy69/landing-page-akachat/releases/latest/download/akachat.apk'
+                  href='https://docs.inter-digital.org/public.php/dav/files/WggRLtezEGpS9mj/?accept=zip'
                   download
                   className='bg-slate-950  text-white rounded-lg transition-transform hover:scale-105 flex items-center justify-center gap-2 font-medium shadow-md h-11'
                   style={{ width: 150, minWidth: 150 }}>
@@ -264,7 +264,7 @@ export default async function HomePage({ params }: HomePageProps) {
             </a>
             <a
               title={messages.hero.downloadWebAlt}
-              href='https://github.com/tedy69/landing-page-akachat/releases/latest/download/akachat.apk'
+              href='https://docs.inter-digital.org/public.php/dav/files/WggRLtezEGpS9mj/?accept=zip'
               download
               className='bg-slate-950 text-white px-4 sm:px-6 py-2.5 sm:py-3 rounded-lg transition-transform hover:scale-105 flex items-center justify-center gap-2 font-medium shadow-md h-12 text-sm sm:text-base'>
               <svg
