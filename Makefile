@@ -8,7 +8,7 @@ SSH_OPTS := -i $(SSH_KEY)
 SSH_TARGET := $(SSH_USER)@$(SSH_HOST)
 
 REMOTE_STAGING_DIR := $$HOME/development/im-infra/staging
-REMOTE_APP_DIR := $(REMOTE_STAGING_DIR)/components/caddy/www/dist
+REMOTE_APP_DIR := $(REMOTE_STAGING_DIR)/components/caddy/www/akachat
 
 .PHONY: build sync restart-caddy deploy
 
@@ -17,7 +17,7 @@ build:
 
 sync:
 	ssh $(SSH_OPTS) $(SSH_TARGET) 'sudo mkdir -p "$(REMOTE_APP_DIR)" && sudo find "$(REMOTE_APP_DIR)" -mindepth 1 -maxdepth 1 -exec rm -rf {} + && sudo chown -R $$USER:$$USER "$(REMOTE_APP_DIR)"'
-	tar -C out -cf - . | ssh $(SSH_OPTS) $(SSH_TARGET) 'tar -C "$(REMOTE_APP_DIR)" -xf -'
+	COPYFILE_DISABLE=1 tar -C out -cf - . | ssh $(SSH_OPTS) $(SSH_TARGET) 'tar -C "$(REMOTE_APP_DIR)" -xf -'
 
 restart-caddy:
 	ssh $(SSH_OPTS) $(SSH_TARGET) 'cd "$(REMOTE_STAGING_DIR)" && sudo docker compose restart caddy'
