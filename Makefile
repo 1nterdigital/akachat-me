@@ -16,10 +16,10 @@ build:
 	pnpm build
 
 sync:
-	ssh $(SSH_OPTS) $(SSH_TARGET) 'mkdir -p "$(REMOTE_APP_DIR)"'
-	tar -C out -cf - . | ssh $(SSH_OPTS) $(SSH_TARGET) 'mkdir -p "$(REMOTE_APP_DIR)" && find "$(REMOTE_APP_DIR)" -mindepth 1 -maxdepth 1 -exec rm -rf {} + && tar -C "$(REMOTE_APP_DIR)" -xf -'
+	ssh $(SSH_OPTS) $(SSH_TARGET) 'sudo mkdir -p "$(REMOTE_APP_DIR)" && sudo find "$(REMOTE_APP_DIR)" -mindepth 1 -maxdepth 1 -exec rm -rf {} + && sudo chown -R $$USER:$$USER "$(REMOTE_APP_DIR)"'
+	tar -C out -cf - . | ssh $(SSH_OPTS) $(SSH_TARGET) 'tar -C "$(REMOTE_APP_DIR)" -xf -'
 
 restart-caddy:
-	ssh $(SSH_OPTS) $(SSH_TARGET) 'cd "$(REMOTE_STAGING_DIR)" && docker compose restart caddy'
+	ssh $(SSH_OPTS) $(SSH_TARGET) 'cd "$(REMOTE_STAGING_DIR)" && sudo docker compose restart caddy'
 
 deploy: build sync restart-caddy
