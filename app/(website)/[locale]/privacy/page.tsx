@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';
-import Image from 'next/image';
 import { getMessages, type Locale } from '@/lib/i18n';
+import { BrandLogo } from '@/components/brand-logo';
 
 interface PrivacyPageProps {
   readonly params: Promise<{ locale: Locale }>;
@@ -19,8 +19,8 @@ export default async function PrivacyPage({ params }: PrivacyPageProps) {
           <div className='flex justify-between items-center py-6'>
             <Link
               href={`/${locale}`}
-              className='flex items-center text-2xl font-bold text-gray-900'>
-              <Image src='/logo.svg' alt='AkaChat Logo' width={100} height={100} />
+              className='inline-flex items-center text-2xl font-bold text-gray-900'>
+              <BrandLogo />
             </Link>
             <Link
               href={`/${locale}`}
@@ -77,4 +77,3 @@ export default async function PrivacyPage({ params }: PrivacyPageProps) {
     </div>
   );
 }
-

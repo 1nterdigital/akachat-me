@@ -3,10 +3,9 @@
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import { Smartphone } from 'lucide-react';
+import { BrandLogo } from '@/components/brand-logo';
+import { APP_STORE_URL, PLAY_STORE_URL } from '@/lib/download-links';
 
-// Download URLs
-const APP_STORE_URL = 'https://apps.apple.com/app/akachat/id6746837080';
-const PLAY_STORE_URL = 'https://play.google.com/store/apps/details?id=com.akachat';
 const DEFAULT_URL = '/en/';
 
 function getDownloadUrl(): string {
@@ -60,7 +59,7 @@ export default function DeepLinkRedirect() {
       <header className='border-b border-gray-200 bg-white'>
         <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
           <div className='flex justify-center items-center py-6'>
-            <Image src='/logo.svg' alt='AkaChat Logo' width={100} height={100} />
+            <BrandLogo />
           </div>
         </div>
       </header>
@@ -85,7 +84,7 @@ export default function DeepLinkRedirect() {
           </div>
 
           <h1 className='text-3xl md:text-4xl font-bold text-gray-900 mb-4'>
-            Opening <span className='text-blue-600'>Akachat</span>...
+            Opening <span className='text-blue-600'>Trait</span>...
           </h1>
 
           <p className='text-lg text-gray-600 mb-8'>
@@ -142,7 +141,7 @@ export default function DeepLinkRedirect() {
       <footer className='bg-neutral-800 py-6'>
         <div className='max-w-7xl mx-auto px-4 text-center'>
           <p className='text-neutral-400 text-sm'>
-            © {new Date().getFullYear()} Akachat. All rights reserved.
+            © {new Date().getFullYear()} Trait. All rights reserved.
           </p>
         </div>
       </footer>

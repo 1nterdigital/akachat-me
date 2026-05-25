@@ -6,7 +6,7 @@
     "backToHome": "Back to Home"
   },
   "hero": {
-    "title": "AkaChat – Faster, Smarter Team",
+    "title": "Trait – Faster, Smarter Team",
     "titleHighlight": "Messaging",
     "titleEnd": "Without the Hassle!",
     "subtitle": "A professional messaging solution designed to streamline team communication and boost your company's productivity through focused chat experiences.",
@@ -15,7 +15,7 @@
     "disclaimer": "*You may need to register as company to use this app"
   },
   "benefits": {
-    "title": "Why Teams Choose AkaChat",
+    "title": "Why Teams Choose Trait",
     "subtitle": "Everything you need for seamless messaging",
     "realTimeMessaging": {
       "title": "Real-Time Messaging",
@@ -35,7 +35,7 @@
     },
     "allTeams": {
       "title": "Built for All Teams",
-      "description": "From HR to Engineering, AkaChat helps every department communicate better."
+      "description": "From HR to Engineering, Trait helps every department communicate better."
     },
     "support": {
       "title": "24/7 Support",
@@ -60,7 +60,7 @@
   "showcase": {
     "title": "See Your Team's Communication",
     "titleHighlight": "Improve",
-    "subtitle": "Watch as your team transforms from scattered messaging to organized communication. AkaChat brings everyone together in one focused platform.",
+    "subtitle": "Watch as your team transforms from scattered messaging to organized communication. Trait brings everyone together in one focused platform.",
     "fasterResponses": "Faster team responses",
     "satisfaction": "90% team satisfaction rate",
     "online": "online",
@@ -68,12 +68,12 @@
   },
   "cta": {
     "title": "Ready to simplify your team's messaging?",
-    "subtitle": "Download AkaChat today and see the difference focused messaging makes!",
+    "subtitle": "Download Trait today and see the difference focused messaging makes!",
     "disclaimer": "*You may need to register as company to use this app"
   },
   "footer": {
-    "title": "AkaChat – Faster, Smarter Team Messaging Without the Hassle!",
+    "title": "Trait – Faster, Smarter Team Messaging Without the Hassle!",
     "description": "A professional chat solution designed to streamline team communication and boost your company's productivity.",
-    "copyright": "© 2025 AkaChat. All rights reserved."
+    "copyright": "© 2025 Trait. All rights reserved."
   }
 }

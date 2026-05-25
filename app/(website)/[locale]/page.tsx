@@ -3,6 +3,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { getMessages, type Locale } from '@/lib/i18n';
 import { LanguageSwitcher } from '@/components/language-switcher';
+import { BrandLogo } from '@/components/brand-logo';
+import { APP_STORE_URL, PLAY_STORE_URL, WEB_DOWNLOAD_URL } from '@/lib/download-links';
 
 interface HomePageProps {
   readonly params: Promise<{ locale: Locale }>;
@@ -19,8 +21,8 @@ export default async function HomePage({ params }: HomePageProps) {
         <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
           <div className='flex justify-between items-center py-6'>
             <div className='flex items-center'>
-              <Link href={`/${locale}`} className='text-2xl font-bold text-blue-600'>
-                <Image src='/logo.svg' alt='AkaChat Logo' width={100} height={100} />
+              <Link href={`/${locale}`} className='inline-flex items-center'>
+                <BrandLogo />
               </Link>
             </div>
             <nav className='hidden md:flex items-center space-x-8'>
@@ -50,7 +52,7 @@ export default async function HomePage({ params }: HomePageProps) {
               <div className='flex flex-col sm:flex-row gap-4 justify-center items-center'>
                 <a
                   title={messages.hero.appStoreAlt}
-                  href='https://apps.apple.com/app/akachat/id6746837080'
+                  href={APP_STORE_URL}
                   className='text-white transition-transform hover:scale-105 flex items-center justify-center'>
                   <Image
                     src='/app-store.png'
@@ -62,7 +64,7 @@ export default async function HomePage({ params }: HomePageProps) {
                 </a>
                 <a
                   title={messages.hero.playStoreAlt}
-                  href='https://play.google.com/store/apps/details?id=com.akachat'
+                  href={PLAY_STORE_URL}
                   className='text-white transition-transform hover:scale-105 flex items-center justify-center'>
                   <Image
                     src='/play-store.png'
@@ -74,7 +76,7 @@ export default async function HomePage({ params }: HomePageProps) {
                 </a>
                 <a
                   title={messages.hero.downloadWebAlt}
-                  href='https://docs.inter-digital.org/public.php/dav/files/WggRLtezEGpS9mj/?accept=zip'
+                  href={WEB_DOWNLOAD_URL}
                   download
                   className='bg-slate-950  text-white rounded-lg transition-transform hover:scale-105 flex items-center justify-center gap-2 font-medium shadow-md h-11'
                   style={{ width: 150, minWidth: 150 }}>
@@ -115,7 +117,7 @@ export default async function HomePage({ params }: HomePageProps) {
             <div className='relative'>
               <div className='animate-float'>
                 <Image
-                  src='/hero.png'
+                  src='/hero2.png'
                   alt='Team collaboration illustration'
                   className='w-full h-auto rounded-2xl shadow-2xl'
                   width={500}
@@ -240,7 +242,7 @@ export default async function HomePage({ params }: HomePageProps) {
           <div className='flex flex-col sm:flex-row gap-4 justify-center mb-4'>
             <a
               title={messages.hero.appStoreAlt}
-              href='https://apps.apple.com/app/akachat/id6746837080'
+              href={APP_STORE_URL}
               className='transition-transform hover:scale-105 flex items-center justify-center'>
               <Image
                 src='/app-store.png'
@@ -252,7 +254,7 @@ export default async function HomePage({ params }: HomePageProps) {
             </a>
             <a
               title={messages.hero.playStoreAlt}
-              href='https://play.google.com/store/apps/details?id=com.akachat'
+              href={PLAY_STORE_URL}
               className='transition-transform hover:scale-105 flex items-center justify-center'>
               <Image
                 src='/play-store.png'
@@ -264,7 +266,7 @@ export default async function HomePage({ params }: HomePageProps) {
             </a>
             <a
               title={messages.hero.downloadWebAlt}
-              href='https://docs.inter-digital.org/public.php/dav/files/WggRLtezEGpS9mj/?accept=zip'
+              href={WEB_DOWNLOAD_URL}
               download
               className='bg-slate-950 text-white px-4 sm:px-6 py-2.5 sm:py-3 rounded-lg transition-transform hover:scale-105 flex items-center justify-center gap-2 font-medium shadow-md h-12 text-sm sm:text-base'>
               <svg

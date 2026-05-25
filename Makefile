@@ -8,7 +8,7 @@ SSH_OPTS := -i $(SSH_KEY)
 SSH_TARGET := $(SSH_USER)@$(SSH_HOST)
 
 REMOTE_STAGING_DIR := $$HOME/development/im-infra/staging
-REMOTE_APP_DIR := $(REMOTE_STAGING_DIR)/components/caddy/www/akachat
+REMOTE_APP_DIR := $(REMOTE_STAGING_DIR)/components/caddy/www/trait
 
 .PHONY: build sync restart-caddy deploy
 

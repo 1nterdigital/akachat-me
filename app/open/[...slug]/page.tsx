@@ -3,8 +3,8 @@ import DeepLinkRedirect from './DeepLinkRedirect';
 // Generate metadata for SEO
 export async function generateMetadata() {
   return {
-    title: 'Open in Akachat',
-    description: 'Download Akachat to open this link',
+    title: 'Open in Trait',
+    description: 'Download Trait to open this link',
   };
 }
 

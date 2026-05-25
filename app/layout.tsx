@@ -6,19 +6,22 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'AkaChat - Faster, Smarter Team Messaging',
+  title: 'Trait - Faster, Smarter Team Messaging',
   description:
     "A professional messaging solution designed to streamline team communication and boost your company's productivity.",
-  keywords: 'team chat, messaging, productivity, communication',
-  authors: [{ name: 'AkaChat Team' }],
+  keywords: 'Trait, team chat, messaging, productivity, communication',
+  authors: [{ name: 'Trait Team' }],
   icons: {
-    icon: '/favicon.ico',
-    shortcut: '/favicon-16x16.png',
-    apple: '/apple-touch-icon.png',
+    icon: [
+      { url: '/Logo/ic-favicon.png', sizes: '64x64', type: 'image/png' },
+      { url: '/favicon.ico', sizes: 'any' },
+    ],
+    shortcut: '/Logo/ic-favicon.png',
+    apple: [{ url: '/Logo/ic-small.png', sizes: '144x144', type: 'image/png' }],
   },
   openGraph: {
-    title: 'AkaChat - Faster, Smarter Team Messaging',
-    description: 'Streamline team communication and boost productivity with AkaChat',
+    title: 'Trait - Faster, Smarter Team Messaging',
+    description: 'Streamline team communication and boost productivity with Trait',
     type: 'website',
     locale: 'en_US',
     images: [
@@ -26,15 +29,15 @@ export const metadata: Metadata = {
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'AkaChat - Team Messaging Platform',
+        alt: 'Trait - Team Messaging Platform',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'AkaChat - Faster, Smarter Team Messaging',
-    description: 'Streamline team communication and boost productivity with AkaChat',
-    images: ['/twitter-image.png'],
+    title: 'Trait - Faster, Smarter Team Messaging',
+    description: 'Streamline team communication and boost productivity with Trait',
+    images: ['/og-image.png'],
   },
 };
 

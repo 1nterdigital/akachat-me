@@ -6,7 +6,7 @@
     "backToHome": "Back to Home"
   },
   "hero": {
-    "title": "AkaChat – Faster, Smarter Team",
+    "title": "Trait – Faster, Smarter Team",
     "titleHighlight": "Messaging",
     "titleEnd": "Without the Hassle!",
     "subtitle": "A professional messaging solution designed to streamline team communication and boost your company's productivity through focused chat experiences.",
@@ -17,7 +17,7 @@
     "disclaimer": "*You may need to register as company to use this app"
   },
   "benefits": {
-    "title": "Why Teams Choose AkaChat",
+    "title": "Why Teams Choose Trait",
     "subtitle": "Everything you need for seamless messaging",
     "realTimeMessaging": {
       "title": "Real-Time Messaging",
@@ -37,7 +37,7 @@
     },
     "allTeams": {
       "title": "Built for All Teams",
-      "description": "From HR to Engineering, AkaChat helps every department communicate better."
+      "description": "From HR to Engineering, Trait helps every department communicate better."
     },
     "support": {
       "title": "24/7 Support",
@@ -62,7 +62,7 @@
   "showcase": {
     "title": "See Your Team's Communication",
     "titleHighlight": "Improve",
-    "subtitle": "Watch as your team transforms from scattered messaging to organized communication. AkaChat brings everyone together in one focused platform.",
+    "subtitle": "Watch as your team transforms from scattered messaging to organized communication. Trait brings everyone together in one focused platform.",
     "fasterResponses": "Faster team responses",
     "satisfaction": "90% team satisfaction rate",
     "online": "online",
@@ -70,24 +70,24 @@
   },
   "cta": {
     "title": "Ready to simplify your team's messaging?",
-    "subtitle": "Download AkaChat today and see the difference focused messaging makes!",
+    "subtitle": "Download Trait today and see the difference focused messaging makes!",
     "disclaimer": "*You may need to register as company to use this app"
   },
   "footer": {
-    "title": "AkaChat – Faster, Smarter Team Messaging Without the Hassle!",
+    "title": "Trait – Faster, Smarter Team Messaging Without the Hassle!",
     "description": "A professional chat solution designed to streamline team communication and boost your company's productivity.",
-    "copyright": "© 2025 AkaChat. All rights reserved."
+    "copyright": "© 2025 Trait. All rights reserved."
   },
   "privacy": {
     "title": "Privacy Policy",
-    "introduction": "The developer fully understands the importance of your personal information and will make every effort to ensure its security and reliability. In accordance with laws, regulations, and national standards, the following Privacy Policy for \"AkaChat\" is established:",
+    "introduction": "The developer fully understands the importance of your personal information and will make every effort to ensure its security and reliability. In accordance with laws, regulations, and national standards, the following Privacy Policy for \"Trait\" is established:",
     "informationCollection": {
       "title": "Information Collection",
-      "description": "The \"AkaChat\" app does not collect any private information from users' phones, such as phone numbers, contacts, SMS, location, etc. The developer's original intention is to develop a useful team messaging tool, and there will be no third-party advertisements within the app (occasionally, the developer's own products may be promoted), so you don't have to worry about third-party advertising service providers stealing your phone's privacy."
+      "description": "The \"Trait\" app does not collect any private information from users' phones, such as phone numbers, contacts, SMS, location, etc. The developer's original intention is to develop a useful team messaging tool, and there will be no third-party advertisements within the app (occasionally, the developer's own products may be promoted), so you don't have to worry about third-party advertising service providers stealing your phone's privacy."
     },
     "appFunctionality": {
       "title": "App Functionality",
-      "description": "All functions within the \"AkaChat\" app are designed to provide secure team messaging capabilities with enterprise-grade security features."
+      "description": "All functions within the \"Trait\" app are designed to provide secure team messaging capabilities with enterprise-grade security features."
     },
     "yourConsent": {
       "title": "Your Consent",
@@ -95,7 +95,7 @@
     },
     "feedback": {
       "title": "Feedback",
-      "description": "If the app has been helpful to you, please give the \"AkaChat\" app a good review. This will encourage the developer to provide higher-quality app content."
+      "description": "If the app has been helpful to you, please give the \"Trait\" app a good review. This will encourage the developer to provide higher-quality app content."
     },
     "closing": "Finally, wish you a pleasant experience using it.",
     "lastUpdated": "On January 8, 2025"
@@ -105,11 +105,11 @@
     "lastUpdated": "Last updated: January 8, 2025",
     "acceptanceOfTerms": {
       "title": "1. Acceptance of Terms",
-      "description": "By accessing and using AkaChat (\"the Service\"), you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service."
+      "description": "By accessing and using Trait (\"the Service\"), you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service."
     },
     "descriptionOfService": {
       "title": "2. Description of Service",
-      "description": "AkaChat is a team messaging platform that provides messaging, file sharing, and channel organization tools. The service is provided \"as is\" and we reserve the right to modify or discontinue the service at any time."
+      "description": "Trait is a team messaging platform that provides messaging, file sharing, and channel organization tools. The service is provided \"as is\" and we reserve the right to modify or discontinue the service at any time."
     },
     "userAccounts": {
       "title": "3. User Accounts",
@@ -125,7 +125,7 @@
     "contactInformation": {
       "title": "4. Contact Information",
       "description": "If you have any questions about these Terms and Conditions, please contact us:",
-      "email": "Email: legal@akachat.me",
+      "email": "Email: legal@inter-digital.org",
       "address": "Address: Landmark Pluit, Blok E7, Pluit, Penjaringan, North Jakarta City, Jakarta"
     }
   }
