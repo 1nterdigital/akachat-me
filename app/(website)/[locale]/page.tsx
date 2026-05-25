@@ -117,7 +117,7 @@ export default async function HomePage({ params }: HomePageProps) {
             <div className='relative'>
               <div className='animate-float'>
                 <Image
-                  src='/hero2.png'
+                  src='/hero-banner.png'
                   alt='Team collaboration illustration'
                   className='w-full h-auto rounded-2xl shadow-2xl'
                   width={500}
