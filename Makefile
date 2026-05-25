@@ -8,12 +8,12 @@ SSH_OPTS := -i $(SSH_KEY)
 SSH_TARGET := $(SSH_USER)@$(SSH_HOST)
 
 REMOTE_STAGING_DIR := $$HOME/development/im-infra/staging
-REMOTE_APP_DIR := $(REMOTE_STAGING_DIR)/components/caddy/www/trait
+REMOTE_APP_DIR := $(REMOTE_STAGING_DIR)/components/caddy/www/dist
 
 .PHONY: build sync restart-caddy deploy
 
 build:
-	yarn build
+	pnpm build
 
 sync:
 	ssh $(SSH_OPTS) $(SSH_TARGET) 'mkdir -p "$(REMOTE_APP_DIR)"'
